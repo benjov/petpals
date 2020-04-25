@@ -16,3 +16,10 @@ python initdb.py
 
 pip freeze > requirements.txt
 
+touch Procfile
+
+agregar: web: gunicorn pet_pals.app: app
+
+GIT ADD .
+.....
+
